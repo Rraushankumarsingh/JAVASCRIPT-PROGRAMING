@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+    <script>
+        let num1=prompt("enter a 1st number ")
+        let num2=prompt("enter a 2st number ")
+        let opr=prompt("please secect among +,-,x,/ ")
+        switch(opr){
+            case "+":
+                let plus=parseFloat(num1)+parseFloat(num2)
+                document.write(`${num1} + ${num2} = ${plus}`);
+                break;
+                case "-":
+                let subtr=parseFloat(num1)-parseFloat(num2)
+                document.write(`${num1} - ${num2} = ${subtr}`);
+                break;
+                case "x":
+                let multi=parseFloat(num1)*parseFloat(num2)
+                document.write(`${num1} x ${num2} = ${multi}`);
+                break;
+                case "/":
+                let div=parseFloat(num1)/parseFloat(num2)
+                document.write(`${num1} / ${num2} = ${div}`);
+                break;
+                default:
+                    document.write("invilate number");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

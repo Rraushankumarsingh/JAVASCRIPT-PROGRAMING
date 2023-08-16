@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>squareroot</title>
+    <script>
+    function changetonumber(){
+        let number=document.getElementById("data").value;
+        let sur=Math.sqrt(number);
+        document.getElementById("convertnumber").innerHTML= "squre root of the number is :"+sur;
+    }
+    </script>
+</head>
+<body>
+    <input type="number" type="any" id="data" placeholder="enter a squareroot number"> suareroot number
+    <button onclick="changetonumber()"> convert</button> number
+    <h1 id="convertnumber"></h1>
+</body>
+</html>

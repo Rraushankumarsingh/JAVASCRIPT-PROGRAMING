@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finding the sueare</title>
+    <script>
+        function findsuare(){
+            let number=document.getElementById("data").value;
+            const va=number*number;
+            document.getElementById("suarevalue").innerHTML="the square of number is :"+va
+        }
+    </script>
+</head>
+<body style="background-color: aqua;">
+    <p>please inter your number which you want square</p>
+    <input type="number" type="any" id="data" placeholder="enter a number"> number 
+    <button onclick="findsuare()"> convert</button> into squre
+    <h1 id="suarevalue"></h1>
+</body>
+</html>
